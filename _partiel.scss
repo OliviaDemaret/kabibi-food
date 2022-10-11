@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap")
+    format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap")
+    format("truetype");
+}
+
+$background-article1: url(images/headerfond.jpg);
+$background-article2: url(images/banner.jpg);
+$background-article3: #fefefe;
+$background-article4: #faf6ef;
+$background-article5: #faf6ef;
+$background-article6: url(images/fondblack.jpg);
+
+$button: "IBM Plex Sans", capitalize, black;
+$titre1: "Coromant Garamond", capitalize, rbga(0, 0, 0, 0.5);
+$titre2: "Coromant Garamond", capitalize, black;
+$titre3: "Coromant Garamond", black;
+$titre4:
+$sous-titre: "IBM Plex Sans", black;
+$nav: "IBM Plex Sans", white;
+$prices: "Coromant Garamond", #c6ad64;
