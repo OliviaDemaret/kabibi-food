@@ -1,11 +1,9 @@
-/* Error: expected ";".
- *    ,
- * 24 | $sous-titre: "IBM Plex Sans", black;
- *    |            ^
- *    '
- *   _partiel.scss 24:12  @use
- *   _header.scss 1:1     @forward
- *   style.scss 1:1       root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @forward "/resource/scss/partials/header";
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   style.scss 1:1  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 24 \2502  $sous-titre: "IBM Plex Sans", black;\a    \2502             ^\a    \2575 \a   _partiel.scss 24:12  @use\a   _header.scss 1:1     @forward\a   style.scss 1:1       root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @forward \"/resource/scss/partials/header\";\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   style.scss 1:1  root stylesheet";
 }
