@@ -1,2 +1,65 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+
+#aboutus {
+  background: $background-article3;
+}
+
+#imgaboutus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fefefe;
+  gap: 40px;
+}
+
+#platsalad {
+  width: 40%;
+  border-style: solid;
+  border-color: #fefefe;
+  border-radius: 50%;
+  border-width: 40px;
+}
+
+#platcrepe {
+  width: 20%;
+  height: 20%;
+}
+
+#platoeufs {
+  width: 20%;
+  height: 20%;
+}
+
+#divaboutuslogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#textimgaboutus {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 300px;
+}
+
+#textaboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#paboutus {
+  font-size: 20px;
+  margin: 40px;
+  text-align: left;
+}
+
+#aaboutus {
+  text-align: center;
+  font: $button;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-style: none;
+}
