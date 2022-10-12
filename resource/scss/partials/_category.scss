@@ -1,2 +1,29 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+#square {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#cheese {
+  background-color: #c7910d;
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+.hamb {
+  background-color: white;
+  color: black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}

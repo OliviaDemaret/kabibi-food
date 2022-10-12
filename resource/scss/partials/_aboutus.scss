@@ -63,3 +63,32 @@
   text-decoration: none;
   border-style: none;
 }
+
+#ourblog {
+  display: flex;
+  flex-direction: row;
+}
+
+#cardsblog {
+  margin: 20px 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardblog {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.pcardblog {
+  margin-top: 10px;
+  padding-left: 20px;
+}
