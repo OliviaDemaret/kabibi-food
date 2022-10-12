@@ -1,22 +1,29 @@
-@use "./partiel" as *;
-@use "./reset" as *;
-
-@media only screen and (min-width: 768px) {
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/*$titre4:;*/
+* {
+  padding: 0px;
+  margin: 0px;
 }
+
 header {
   height: 700px;
-  background-image: $background-article1;
+  background-image: url(./resource/images/headerfond.jpg);
 }
+
 nav {
   display: flex;
 }
+
 #divnav1 {
   display: flex;
 }
+
 #logonav {
   height: 50%;
   margin: 20px;
 }
+
 #navul {
   margin-top: 50px;
   display: flex;
@@ -70,8 +77,8 @@ nav {
   padding-top: 0px;
   margin-top: 0px;
   color: white;
-  font: $button;
-  text-transform: $button;
+  font: "IBM Plex Sans", capitalize, black;
+  text-transform: "IBM Plex Sans", capitalize, black;
   text-decoration: none;
   border-style: none;
 }
@@ -91,10 +98,10 @@ nav {
 
 #exploremenu {
   color: white;
-  font: $button;
+  font: "IBM Plex Sans", capitalize, black;
   padding: 10px;
   margin-left: 170px;
-  text-transform: $button;
+  text-transform: "IBM Plex Sans", capitalize, black;
   text-decoration: none;
   border-style: solid;
   border-color: rgb(255, 255, 255);
@@ -102,7 +109,4 @@ nav {
   border-width: 1px;
 }
 
-@media only screen and (max-width: 410px) {
-}
-@media only screen and (min-width: 410px) and (max-width: 768px) {
-}
+/*# sourceMappingURL=style.css.map */
