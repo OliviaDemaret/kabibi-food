@@ -1,7 +1,7 @@
 @use "./partiel" as *;
 @use "./reset" as *;
 #category {
-  background-image: url("/resource/images/banner.jpg");
+  background-image: $background-article2;
 }
 
 #square {

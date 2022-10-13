@@ -8,9 +8,11 @@ footer {
   background-size: cover;
   color: white;
   ul {
+    font-family: "IBM Plex Sans", serif;
     display: flex;
     flex-direction: column;
     li {
+      font-family: "IBM Plex Sans", serif;
       margin-top: 10px;
       list-style-type: none;
     }
@@ -38,6 +40,7 @@ h4 {
 }
 
 #newsletter {
+  font-family: "IBM Plex Sans", serif;
   width: 200px;
 }
 
@@ -46,6 +49,7 @@ input {
 }
 
 #contact {
+  font-family: "IBM Plex Sans", serif;
   width: 250px;
 }
 
@@ -58,6 +62,7 @@ input {
 }
 
 #footerrow {
+  font-family: "IBM Plex Sans", serif;
   display: flex;
   flex-direction: row;
 }
