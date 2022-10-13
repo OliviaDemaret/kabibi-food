@@ -273,13 +273,15 @@ nav {
 }
 
 #cardsblog {
-  margin: 20px 220px;
+  margin-left: 190px;
+  margin-right: 190px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .cardblog {
+  margin: 0 1em;
   display: flex;
   flex-direction: column;
   background-color: #faf6ef;
@@ -314,6 +316,11 @@ nav {
   border-style: none;
 }
 
+#aourblog3 {
+  background-color: #b68c5a;
+  margin: 3px 10px;
+}
+
 .vignettes {
   margin-top: 80px;
   display: flex;
@@ -326,7 +333,6 @@ nav {
   text-align: center;
   font-family: "IBM Plex Sans", serif;
   border-radius: 10px;
-  background-color: #b68c5a;
   padding: 20px 20px;
   text-transform: uppercase;
   font-weight: 800;
