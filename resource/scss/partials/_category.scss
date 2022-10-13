@@ -1,5 +1,9 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+#category {
+  background-image: url("/resource/images/banner.jpg");
+}
+
 #square {
   display: flex;
   flex-direction: row;

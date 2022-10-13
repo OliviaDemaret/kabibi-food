@@ -1,2 +1,82 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+
+#ourblog {
+  display: flex;
+  flex-direction: row;
+}
+
+#h3ourblog {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: $titre3;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sous-titre {
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
+}
+
+#cardsblog {
+  margin: 20px 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardblog {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf6ef;
+  gap: 20px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: smaller;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.pcardblog {
+  font-family: "Cormorant Garamond", serif;
+  font-size: larger;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.aourblog {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  border-style: none;
+}
+
+.vignettes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+#pourblog3 {
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
+  border-radius: 10px;
+  background-color: #b68c5a;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  border-style: none;
+}

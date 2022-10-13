@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 /*$titre4:;*/
 * {
@@ -25,6 +25,7 @@ nav {
 }
 
 #navul {
+  font-family: "IBM Plex Sans", serif;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -33,37 +34,46 @@ nav {
 }
 
 .navli {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin: 0px 30px;
 }
 
 .navlif {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-right: 5px;
 }
 
 #shop {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-left: 30px;
 }
 
 #home {
+  font-family: "IBM Plex Sans", serif;
   color: #b68c5a;
 }
 
 #divnav2 {
-  margin-left: 120px;
+  font-family: "IBM Plex Sans", serif;
+  margin-left: 110px;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
 }
 
 #pnav2 {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-right: 30px;
 }
 
 #booktable {
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  font-weight: 800;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -74,39 +84,58 @@ nav {
 }
 
 #anav2 {
+  font-family: "IBM Plex Sans", serif;
   padding-top: 0px;
   margin-top: 0px;
   color: white;
-  font: "IBM Plex Sans", capitalize, black;
-  text-transform: "IBM Plex Sans", capitalize, black;
+  font: "IBM Plex Sans", uppercase, black;
+  text-transform: "IBM Plex Sans", uppercase, black;
   text-decoration: none;
   border-style: none;
 }
 
 #headerlogo {
-  margin-left: 500px;
+  margin-left: 450px;
+  margin-top: 70px;
   position: absolute;
+}
+
+#textlogoplay {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+}
+
+#logoplay {
+  margin-top: 200px;
 }
 
 #Qualityfood {
   margin-top: 80px;
   margin-left: 160px;
   font-size: 100px;
-  font-family: "Coromant Garamond";
+  font-family: "Cormorant Garamond", serif;
   color: white;
 }
 
 #exploremenu {
   color: white;
-  font: "IBM Plex Sans", capitalize, black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: small;
+  font-family: "IBM Plex Sans", serif;
   padding: 10px;
   margin-left: 170px;
-  text-transform: "IBM Plex Sans", capitalize, black;
+  text-transform: "IBM Plex Sans", uppercase, black;
   text-decoration: none;
   border-style: solid;
   border-color: rgb(255, 255, 255);
   border-radius: 10px;
   border-width: 1px;
+}
+
+#category {
+  background-image: url("/resource/images/banner.jpg");
 }
 
 #square {
@@ -174,12 +203,30 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 100px;
 }
 
 #textimgaboutus {
   display: flex;
   flex-direction: row;
   margin: 50px 300px;
+}
+
+#h3etp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sous-titre {
+  font-family: "IBM Plex Sans", serif;
+}
+
+#aboutush3 {
+  margin-bottom: 15px;
+  font-family: "Cormorant Garamond", black;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 #textaboutus {
@@ -189,15 +236,20 @@ nav {
 }
 
 #paboutus {
+  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   margin: 40px;
   text-align: left;
 }
 
-#aaboutus {
+#adiscovermore {
   text-align: center;
-  font: "IBM Plex Sans", capitalize, black;
-  text-transform: capitalize;
+  font-family: "IBM Plex Sans", serif;
+  border-radius: 10px;
+  background-color: #b68c5a;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  font-weight: 800;
   text-decoration: none;
   border-style: none;
 }
@@ -205,6 +257,19 @@ nav {
 #ourblog {
   display: flex;
   flex-direction: row;
+}
+
+#h3ourblog {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Cormorant Garamond", black;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sous-titre {
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
 }
 
 #cardsblog {
@@ -217,18 +282,56 @@ nav {
 .cardblog {
   display: flex;
   flex-direction: column;
+  background-color: #faf6ef;
+  gap: 20px;
 }
 
 .date {
   display: flex;
   flex-direction: row;
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: smaller;
   gap: 10px;
   padding-top: 10px;
 }
 
 .pcardblog {
+  font-family: "Cormorant Garamond", serif;
+  font-size: larger;
   margin-top: 10px;
   padding-left: 20px;
+}
+
+.aourblog {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  border-style: none;
+}
+
+.vignettes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+#pourblog3 {
+  text-align: center;
+  font-family: "IBM Plex Sans", serif;
+  border-radius: 10px;
+  background-color: #b68c5a;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  border-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

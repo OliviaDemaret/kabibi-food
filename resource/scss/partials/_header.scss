@@ -18,6 +18,7 @@ nav {
   margin: 20px;
 }
 #navul {
+  font-family: "IBM Plex Sans", serif;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -26,37 +27,46 @@ nav {
 }
 
 .navli {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin: 0px 30px;
 }
 
 .navlif {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-right: 5px;
 }
 
 #shop {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-left: 30px;
 }
 
 #home {
+  font-family: "IBM Plex Sans", serif;
   color: #b68c5a;
 }
 
 #divnav2 {
-  margin-left: 120px;
+  font-family: "IBM Plex Sans", serif;
+  margin-left: 110px;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
 }
 
 #pnav2 {
+  font-family: "IBM Plex Sans", serif;
   color: white;
   margin-right: 30px;
 }
 
 #booktable {
+  font-family: "IBM Plex Sans", serif;
+  text-transform: uppercase;
+  font-weight: 800;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,6 +77,7 @@ nav {
 }
 
 #anav2 {
+  font-family: "IBM Plex Sans", serif;
   padding-top: 0px;
   margin-top: 0px;
   color: white;
@@ -77,21 +88,35 @@ nav {
 }
 
 #headerlogo {
-  margin-left: 500px;
+  margin-left: 450px;
+  margin-top: 70px;
   position: absolute;
+}
+
+#textlogoplay {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+}
+
+#logoplay {
+  margin-top: 200px;
 }
 
 #Qualityfood {
   margin-top: 80px;
   margin-left: 160px;
   font-size: 100px;
-  font-family: "Coromant Garamond";
+  font-family: "Cormorant Garamond", serif;
   color: white;
 }
 
 #exploremenu {
   color: white;
-  font: $button;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: small;
+  font-family: "IBM Plex Sans", serif;
   padding: 10px;
   margin-left: 170px;
   text-transform: $button;

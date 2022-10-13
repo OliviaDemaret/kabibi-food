@@ -6,3 +6,6 @@
 @forward "./resource/scss/partials/ourchefs";
 @forward "./resource/scss/partials/ourblog";
 @forward "./resource/scss/partials/footer";
+@forward "./resource/scss/partials/partiel";
+@forward "./resource/scss/partials/reset";
+@use "./resource/scss/partials/fonts" as *;
