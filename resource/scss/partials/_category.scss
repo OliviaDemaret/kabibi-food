@@ -1,13 +1,23 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+
 #category {
   background-image: $background-article2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FFF4DE;
+}
+
+h2{
+  font-size: 150px;
+  color: #eed5bb;
 }
 
 #square {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 30px;
 }
 #cheese {
   background-color: #c7910d;

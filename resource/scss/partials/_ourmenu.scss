@@ -1,5 +1,6 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+
 #ourmenu {
   margin-top: 100px;
   align-items: center;
@@ -9,14 +10,14 @@
 
 #imgpain {
   position: absolute;
-  margin-top: -100px;
-  margin-left: 970px;
+  margin-top: -160px;
+  margin-left: 1550px;
   z-index: 0;
 }
 
 #imgsteakglace {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 h3 {
@@ -67,6 +68,6 @@ h3 {
   height: 500px;
 }
 #imgsteakglace {
-  width: 100px;
-  height: 300px;
+  width: 200px;
+  height: 400px;
 }

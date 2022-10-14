@@ -1,2 +1,46 @@
 @use "./partiel" as *;
 @use "./reset" as *;
+
+#gallery{
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  
+  
+  #platline1{
+    padding-top: 20px;
+    display: grid; 
+    grid-template-columns: 630px 300px 300px;
+    grid-template-rows: 1fr; 
+    gap: 20px 30px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."; 
+    justify-items: stretch; 
+    justify-content: center;
+  }
+  #platline2{
+    display: grid; 
+    grid-template-columns: 300px 300px 630px;
+    grid-template-rows: 1fr; 
+    gap: 20px 30px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."; 
+    justify-items: stretch; 
+    justify-content: center;
+  }
+  
+  
+  
+  #viewmorephotos{
+    display: flex;
+    justify-content: center;
+  
+    background-color: white;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
