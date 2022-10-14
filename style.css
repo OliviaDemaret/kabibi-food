@@ -137,7 +137,6 @@ nav {
 
 #category {
   background-image: url("./resource/images/banner.jpg");
-  height: 900px;
   background-size: contain;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -262,7 +261,13 @@ h2 {
   text-align: left;
 }
 
+#flechemore {
+  margin-left: 10px;
+}
+
 #adiscovermore {
+  color: white;
+  font-size: smaller;
   text-align: center;
   font-family: "IBM Plex Sans", serif;
   border-radius: 10px;
@@ -375,9 +380,23 @@ h3 {
   justify-content: center;
 }
 
+.button {
+  font-size: smaller;
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#flechegallery {
+  margin-left: 10px;
+}
+
 #viewmorephotos {
   display: flex;
   justify-content: center;
+  text-decoration: none;
   background-color: white;
   padding: 15px;
   border: 2px solid lightgray;
@@ -461,6 +480,8 @@ h2 {
 }
 
 .aourblog {
+  color: black;
+  font-size: smaller;
   margin-top: 30px;
   text-align: left;
   margin-left: 30px;
@@ -472,7 +493,12 @@ h2 {
   margin-bottom: 50px;
 }
 
+.flecheblog {
+  margin-left: 10px;
+}
+
 #aourblog3 {
+  color: white;
   background-color: #b68c5a;
   margin: 3px 10px;
   margin-bottom: 50px;
