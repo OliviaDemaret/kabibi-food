@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');");
 /*$titre4:;*/
 * {
   padding: 0px;
@@ -402,6 +403,13 @@ h3 {
   flex-direction: row;
 }
 
+h2 {
+  color: black;
+  opacity: 0.25;
+  font-family: "Noto Serif";
+  text-transform: uppercase;
+}
+
 #h3ourblog {
   text-align: center;
   margin-bottom: 15px;
@@ -413,6 +421,7 @@ h3 {
 .sous-titre {
   text-align: center;
   font-family: "IBM Plex Sans", serif;
+  margin-bottom: 50px;
 }
 
 #cardsblog {

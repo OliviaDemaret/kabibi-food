@@ -6,6 +6,13 @@
   flex-direction: row;
 }
 
+h2 {
+  color: black;
+  opacity: 0.25;
+  font-family: "Noto Serif";
+  text-transform: uppercase;
+}
+
 #h3ourblog {
   text-align: center;
   margin-bottom: 15px;
@@ -17,6 +24,7 @@
 .sous-titre {
   text-align: center;
   font-family: "IBM Plex Sans", serif;
+  margin-bottom: 50px;
 }
 
 #cardsblog {
