@@ -88,8 +88,8 @@ nav {
   padding-top: 0px;
   margin-top: 0px;
   color: white;
-  font: "IBM Plex Sans", uppercase, black;
-  text-transform: "IBM Plex Sans", uppercase, black;
+  font: "IBM Plex Sans", uppercase;
+  text-transform: "IBM Plex Sans", uppercase;
   text-decoration: none;
   border-style: none;
 }
@@ -126,7 +126,7 @@ nav {
   font-family: "IBM Plex Sans", serif;
   padding: 10px;
   margin-left: 170px;
-  text-transform: "IBM Plex Sans", uppercase, black;
+  text-transform: "IBM Plex Sans", uppercase;
   text-decoration: none;
   border-style: solid;
   border-color: rgb(255, 255, 255);
@@ -134,34 +134,14 @@ nav {
   border-width: 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #category {
-  /*background-image: url("./resource/images/banner.jpg");*/
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #FFF4DE;
-}
-h2{
-  font-size: 150px;
+  background-image: url("./resource/images/banner.jpg");
 }
 
 #square {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 30px;
 }
 
 #cheese {
@@ -187,29 +167,6 @@ h2{
   width: 200px;
   height: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #aboutus {
   background: #fefefe;
@@ -255,15 +212,6 @@ h2{
   margin: 50px 300px;
 }
 
-
-
-
-
-
-
-
-
-
 #h3etp {
   display: flex;
   flex-direction: column;
@@ -307,21 +255,22 @@ h2{
 }
 
 #ourmenu {
-  background-color: #FFF4DE;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  align-items: center;
+  background-color: #fefefe;
+  margin-bottom: 100px;
 }
 
 #imgpain {
   position: absolute;
-  margin-top: -160px;
-  margin-left: 1550px;
+  margin-top: -100px;
+  margin-left: 970px;
   z-index: 0;
 }
 
 #imgsteakglace {
   position: absolute;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 h3 {
@@ -371,121 +320,9 @@ h3 {
 }
 
 #imgsteakglace {
-  width: 200px;
-  height: 400px;
+  width: 100px;
+  height: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#gallery{
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
-
-
-#platline1{
-  padding-top: 20px;
-  display: grid; 
-  grid-template-columns: 630px 300px 300px;
-  grid-template-rows: 1fr; 
-  gap: 20px 30px; 
-  grid-template-areas: 
-    ". . ."
-    ". . ."; 
-  justify-items: stretch; 
-  justify-content: center;
-}
-#platline2{
-  display: grid; 
-  grid-template-columns: 300px 300px 630px;
-  grid-template-rows: 1fr; 
-  gap: 20px 30px; 
-  grid-template-areas: 
-    ". . ."
-    ". . ."; 
-  justify-items: stretch; 
-  justify-content: center;
-}
-
-
-
-#viewmorephotos{
-  display: flex;
-  justify-content: center;
-
-  background-color: white;
-  padding: 15px;
-  border: 2px solid lightgray;
-  border-radius: 5px;
-  margin: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#ourchefs{
-  background-color: rgb(36, 34, 34);
-  color: white;
-  padding-top: 50px;
-  padding-bottom: 150px;
-}
-
-#fourchefs{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
-  padding: 30px;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #ourblog {
   display: flex;
@@ -603,6 +440,7 @@ footer ul li {
 }
 
 #divfooterul {
+  color: #8d9d9e;
   display: flex;
   flex-direction: row;
   margin-top: 50px;
@@ -612,14 +450,21 @@ footer ul li {
   margin-bottom: 50px;
 }
 
+a {
+  color: #8d9d9e;
+  text-decoration: none;
+}
+
 h4 {
+  color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
 }
 
 #newsletter {
+  color: #8d9d9e;
   font-family: "IBM Plex Sans", serif;
-  width: 200px;
+  width: 300px;
 }
 
 input {
@@ -627,6 +472,7 @@ input {
 }
 
 #contact {
+  color: #8d9d9e;
   font-family: "IBM Plex Sans", serif;
   width: 250px;
 }
@@ -639,10 +485,39 @@ input {
   list-style-type: none;
 }
 
+.icone {
+  margin-right: 5px;
+}
+
 #footerrow {
+  color: #8d9d9e;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 100px;
   font-family: "IBM Plex Sans", serif;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  margin-left: 60px;
+  opacity: 0.5;
+}
+
+#cuillere {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: -60px;
+}
+
+#copyright {
+  font-size: small;
+  margin-left: 80px;
+}
+
+span {
+  color: #c7910d;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,7 @@ footer {
   justify-content: center;
 }
 #divfooterul {
+  color: #8d9d9e;
   display: flex;
   flex-direction: row;
   margin-top: 50px;
@@ -34,14 +35,21 @@ footer {
   margin-bottom: 50px;
 }
 
+a {
+  color: #8d9d9e;
+  text-decoration: none;
+}
+
 h4 {
+  color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
 }
 
 #newsletter {
+  color: #8d9d9e;
   font-family: "IBM Plex Sans", serif;
-  width: 200px;
+  width: 300px;
 }
 
 input {
@@ -49,6 +57,7 @@ input {
 }
 
 #contact {
+  color: #8d9d9e;
   font-family: "IBM Plex Sans", serif;
   width: 250px;
 }
@@ -61,8 +70,37 @@ input {
   list-style-type: none;
 }
 
+.icone {
+  margin-right: 5px;
+}
+
 #footerrow {
+  color: #8d9d9e;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 100px;
   font-family: "IBM Plex Sans", serif;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  margin-left: 60px;
+  opacity: 0.5;
+}
+
+#cuillere {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: -60px;
+}
+
+#copyright {
+  font-size: small;
+  margin-left: 80px;
+}
+
+span {
+  color: #c7910d;
 }
