@@ -137,6 +137,8 @@ nav {
 
 #category {
   background-image: url("./resource/images/banner.jpg");
+  height: 900px;
+  background-size: contain;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #fff4de;
@@ -406,7 +408,7 @@ h3 {
 h2 {
   color: black;
   opacity: 0.25;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", serif;
   text-transform: uppercase;
 }
 
