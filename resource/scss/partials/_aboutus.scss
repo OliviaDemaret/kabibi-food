@@ -40,6 +40,10 @@
   margin-top: 100px;
 }
 
+#titreaboutus {
+  text-align: left;
+}
+
 #textimgaboutus {
   display: flex;
   flex-direction: row;
@@ -47,12 +51,16 @@
 }
 
 #h3etp {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
 }
 .sous-titre {
   font-family: "IBM Plex Sans", serif;
+}
+
+#roundlogoaboutus {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 800px;
 }
 
 #aboutush3 {

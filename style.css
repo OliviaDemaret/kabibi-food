@@ -215,6 +215,10 @@ h2 {
   margin-top: 100px;
 }
 
+#titreaboutus {
+  text-align: left;
+}
+
 #textimgaboutus {
   display: flex;
   flex-direction: row;
@@ -222,13 +226,17 @@ h2 {
 }
 
 #h3etp {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
 }
 
 .sous-titre {
   font-family: "IBM Plex Sans", serif;
+}
+
+#roundlogoaboutus {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 800px;
 }
 
 #aboutush3 {
@@ -515,12 +523,12 @@ footer ul li {
   margin-bottom: 50px;
 }
 
-a {
+.afooter {
   color: #8d9d9e;
   text-decoration: none;
 }
 
-#h4footer {
+.h4footer {
   color: white;
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
